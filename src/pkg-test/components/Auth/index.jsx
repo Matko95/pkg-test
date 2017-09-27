@@ -10,8 +10,6 @@ class Auth extends Component {
     super(props);
 
     this.state = {};
-
-    this.register = this.register.bind(this);
   }
   render() {
     return (
