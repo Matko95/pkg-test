@@ -1,0 +1,16 @@
+.melonmail-wrapper {
+  height: 100%;
+
+  * {
+	outline: none;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  input {
+    font-family: 'Ubuntu', sans-serif !important;
+  }
+
+  @import "style/mixins/mixins";
+  @import "style/config/reset";
+  @import "style/config/fonts";
+}
