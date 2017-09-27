@@ -6,7 +6,7 @@ const config = {
   entry: [
     'react-hot-loader/patch',
     'webpack/hot/only-dev-server',
-    'webpack-dev-server/client?http://127.0.0.1:3300',
+    'webpack-dev-server/client?http://127.0.0.1:3000',
     './src/',
     './src/index.jsx',
   ],

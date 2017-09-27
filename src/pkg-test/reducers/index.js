@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import router from './router';
 
 const appReducer = combineReducers({
-
+  router,
 });
 
 /*   Clears the store state    */

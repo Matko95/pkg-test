@@ -31,7 +31,11 @@ class Router extends Component {
   }
 }
 
-Router.propTypes = {};
+Router.propTypes = {
+  router: PropTypes.shape({
+    path: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 Router.defaultProps = {};
 
