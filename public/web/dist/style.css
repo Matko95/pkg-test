@@ -1,0 +1,193 @@
+.melonmail-wrapper {
+  height: 100%;
+  /*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+  /* change colours to suit your needs */
+  /* change colours to suit your needs */
+  /* change border colour to suit your needs */
+}
+
+.melonmail-wrapper * {
+  outline: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.melonmail-wrapper input {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.melonmail-wrapper html,
+.melonmail-wrapper body,
+.melonmail-wrapper div,
+.melonmail-wrapper span,
+.melonmail-wrapper object,
+.melonmail-wrapper iframe,
+.melonmail-wrapper h1,
+.melonmail-wrapper h2,
+.melonmail-wrapper h3,
+.melonmail-wrapper h4,
+.melonmail-wrapper h5,
+.melonmail-wrapper h6,
+.melonmail-wrapper p,
+.melonmail-wrapper blockquote,
+.melonmail-wrapper pre,
+.melonmail-wrapper abbr,
+.melonmail-wrapper address,
+.melonmail-wrapper cite,
+.melonmail-wrapper code,
+.melonmail-wrapper del,
+.melonmail-wrapper dfn,
+.melonmail-wrapper em,
+.melonmail-wrapper img,
+.melonmail-wrapper ins,
+.melonmail-wrapper kbd,
+.melonmail-wrapper q,
+.melonmail-wrapper samp,
+.melonmail-wrapper small,
+.melonmail-wrapper strong,
+.melonmail-wrapper sub,
+.melonmail-wrapper sup,
+.melonmail-wrapper var,
+.melonmail-wrapper b,
+.melonmail-wrapper i,
+.melonmail-wrapper dl,
+.melonmail-wrapper dt,
+.melonmail-wrapper dd,
+.melonmail-wrapper ol,
+.melonmail-wrapper ul,
+.melonmail-wrapper li,
+.melonmail-wrapper fieldset,
+.melonmail-wrapper form,
+.melonmail-wrapper label,
+.melonmail-wrapper legend,
+.melonmail-wrapper table,
+.melonmail-wrapper caption,
+.melonmail-wrapper tbody,
+.melonmail-wrapper tfoot,
+.melonmail-wrapper thead,
+.melonmail-wrapper tr,
+.melonmail-wrapper th,
+.melonmail-wrapper td,
+.melonmail-wrapper article,
+.melonmail-wrapper aside,
+.melonmail-wrapper canvas,
+.melonmail-wrapper details,
+.melonmail-wrapper figcaption,
+.melonmail-wrapper figure,
+.melonmail-wrapper footer,
+.melonmail-wrapper header,
+.melonmail-wrapper menu,
+.melonmail-wrapper nav,
+.melonmail-wrapper section,
+.melonmail-wrapper summary,
+.melonmail-wrapper time,
+.melonmail-wrapper mark,
+.melonmail-wrapper audio,
+.melonmail-wrapper video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.melonmail-wrapper body {
+  line-height: 1;
+}
+
+.melonmail-wrapper article,
+.melonmail-wrapper aside,
+.melonmail-wrapper details,
+.melonmail-wrapper figcaption,
+.melonmail-wrapper figure,
+.melonmail-wrapper footer,
+.melonmail-wrapper header,
+.melonmail-wrapper menu,
+.melonmail-wrapper nav,
+.melonmail-wrapper section,
+.melonmail-wrapper main {
+  display: block;
+}
+
+.melonmail-wrapper nav ul {
+  list-style: none;
+}
+
+.melonmail-wrapper blockquote,
+.melonmail-wrapper q {
+  quotes: none;
+}
+
+.melonmail-wrapper blockquote:before,
+.melonmail-wrapper blockquote:after,
+.melonmail-wrapper q:before,
+.melonmail-wrapper q:after {
+  content: '';
+  content: none;
+}
+
+.melonmail-wrapper a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.melonmail-wrapper ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+.melonmail-wrapper mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.melonmail-wrapper del {
+  text-decoration: line-through;
+}
+
+.melonmail-wrapper abbr[title],
+.melonmail-wrapper dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+.melonmail-wrapper table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.melonmail-wrapper hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.melonmail-wrapper input,
+.melonmail-wrapper select {
+  vertical-align: middle;
+}
+
+.melonmail-wrapper h1,
+.melonmail-wrapper h2,
+.melonmail-wrapper h3,
+.melonmail-wrapper h4,
+.melonmail-wrapper h5,
+.melonmail-wrapper h6 {
+  font-weight: normal;
+}

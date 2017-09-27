@@ -1,8 +1,7 @@
 {
-  "name": "@matko/pkt-test",
+  "name": "matko-pkg-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "public/web/dist/bundle.js",
   "scripts": {
     "start": "webpack-dev-server --host 127.0.0.1 --port 3300",
     "prod": "webpack --config ./webpack.production.js",
@@ -51,5 +50,14 @@
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
     "webpack-dev-server": "^2.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matko95/pkg-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Matko95/pkg-test/issues"
+  },
+  "homepage": "https://github.com/Matko95/pkg-test#readme",
+  "description": ""
 }
