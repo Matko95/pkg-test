@@ -9,6 +9,9 @@
   },
   "author": "Matko",
   "license": "ISC",
+  "peerDependencies": {
+    "react": "^15.6.1"
+  },
   "dependencies": {
     "extract-text-webpack-plugin": "^3.0.0",
     "prop-types": "^15.5.10",

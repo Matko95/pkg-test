@@ -12,6 +12,7 @@ const config = {
     path: path.join(__dirname, './public/web/dist'),
     filename: 'bundle.js',
     publicPath: 'web/dist/',
+    libraryTarget: 'commonjs2',
   },
   resolve: {
     extensions: ['.jsx', '.js', '.scss', '.eot', '.svg', '.ttf', '.woff', '.woff2', '.png', '.jpg'],
@@ -86,7 +87,6 @@ const config = {
   plugins: [
     new UglifyJsPlugin(),
     new webpack.optimize.AggressiveMergingPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
     new ExtractTextPlugin(
       {
         filename: 'style.css',
@@ -104,6 +104,9 @@ const config = {
       },
     }),
   ],
+  externals: {
+    react: 'commonjs react',
+  },
 };
 
 module.exports = config;
