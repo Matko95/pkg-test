@@ -9,9 +9,9 @@ const config = {
     './src/',
   ],
   output: {
-    path: path.join(__dirname, './public/web/dist'),
+    path: path.join(__dirname, './public/'),
     filename: 'bundle.js',
-    publicPath: 'web/dist/',
+    publicPath: '/',
     libraryTarget: 'commonjs2',
   },
   resolve: {
