@@ -10,7 +10,7 @@ const defaultState = {};
 
 const createStoreWithMiddleware = applyMiddleware(thunkMiddleware)(createStore);
 
-const store = createStoreWithMiddleware(rootReducer, defaultState, reduxDevToolsEnchancer);
+const store = createStoreWithMiddleware(rootReducer, defaultState);
 
 export default store;
 
