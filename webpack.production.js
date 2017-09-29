@@ -21,7 +21,7 @@ const config = {
     rules: [
       {
         test: /\.jsx?$/,
-        include: path.join(__dirname, 'src'),
+        include: path.join(__dirname, 'src/pkg-test/'),
         use: [
           {
             loader: 'babel-loader',

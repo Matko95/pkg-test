@@ -17,7 +17,7 @@ class Router extends Component {
 
   render() {
     return (
-      <div>
+      <div className="pkg-test">
         {
           this.props.router.path === '/' &&
           <App />

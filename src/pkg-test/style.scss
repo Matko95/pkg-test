@@ -1,9 +1,13 @@
-.melonmail-wrapper {
+.pkg-test {
   height: 100%;
 
   * {
 	outline: none;
     font-family: 'Ubuntu', sans-serif;
+  }
+
+  .ui.centered.padded.grid {
+    color: rebeccapurple;
   }
 
   input {
