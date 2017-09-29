@@ -1,6 +1,5 @@
 const webpack = require('webpack');
 const path = require('path');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
@@ -37,14 +36,11 @@ const config = {
       },
       {
         test: /\.scss$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            'css-loader',
-            'resolve-url-loader',
-            'sass-loader',
-          ],
-        }),
+        use: [
+          'css-loader',
+          'resolve-url-loader',
+          'sass-loader',
+        ],
       },
       {
         test: /\.(png|jpg|gif|jpeg)$/,
@@ -87,12 +83,6 @@ const config = {
   plugins: [
     new UglifyJsPlugin(),
     new webpack.optimize.AggressiveMergingPlugin(),
-    new ExtractTextPlugin(
-      {
-        filename: 'style.css',
-        allChunks: true,
-      },
-    ),
     new HtmlWebpackPlugin({
       inject: true,
       template: 'src/index.html',
