@@ -6,7 +6,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 const config = {
   entry: [
-    './src/',
+    './src/pkg-test/',
   ],
   output: {
     path: path.join(__dirname, './public/'),

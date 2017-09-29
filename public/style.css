@@ -1,4 +1,4 @@
-.melonmail-wrapper {
+.pkg-test {
   height: 100%;
   /*
 html5doctor.com Reset Stylesheet
@@ -12,83 +12,87 @@ Twitter: @rich_clark
   /* change border colour to suit your needs */
 }
 
-.melonmail-wrapper * {
+.pkg-test * {
   outline: none;
   font-family: 'Ubuntu', sans-serif;
 }
 
-.melonmail-wrapper input {
+.pkg-test .ui.centered.padded.grid {
+  color: rebeccapurple;
+}
+
+.pkg-test input {
   font-family: 'Ubuntu', sans-serif !important;
 }
 
-.melonmail-wrapper html,
-.melonmail-wrapper body,
-.melonmail-wrapper div,
-.melonmail-wrapper span,
-.melonmail-wrapper object,
-.melonmail-wrapper iframe,
-.melonmail-wrapper h1,
-.melonmail-wrapper h2,
-.melonmail-wrapper h3,
-.melonmail-wrapper h4,
-.melonmail-wrapper h5,
-.melonmail-wrapper h6,
-.melonmail-wrapper p,
-.melonmail-wrapper blockquote,
-.melonmail-wrapper pre,
-.melonmail-wrapper abbr,
-.melonmail-wrapper address,
-.melonmail-wrapper cite,
-.melonmail-wrapper code,
-.melonmail-wrapper del,
-.melonmail-wrapper dfn,
-.melonmail-wrapper em,
-.melonmail-wrapper img,
-.melonmail-wrapper ins,
-.melonmail-wrapper kbd,
-.melonmail-wrapper q,
-.melonmail-wrapper samp,
-.melonmail-wrapper small,
-.melonmail-wrapper strong,
-.melonmail-wrapper sub,
-.melonmail-wrapper sup,
-.melonmail-wrapper var,
-.melonmail-wrapper b,
-.melonmail-wrapper i,
-.melonmail-wrapper dl,
-.melonmail-wrapper dt,
-.melonmail-wrapper dd,
-.melonmail-wrapper ol,
-.melonmail-wrapper ul,
-.melonmail-wrapper li,
-.melonmail-wrapper fieldset,
-.melonmail-wrapper form,
-.melonmail-wrapper label,
-.melonmail-wrapper legend,
-.melonmail-wrapper table,
-.melonmail-wrapper caption,
-.melonmail-wrapper tbody,
-.melonmail-wrapper tfoot,
-.melonmail-wrapper thead,
-.melonmail-wrapper tr,
-.melonmail-wrapper th,
-.melonmail-wrapper td,
-.melonmail-wrapper article,
-.melonmail-wrapper aside,
-.melonmail-wrapper canvas,
-.melonmail-wrapper details,
-.melonmail-wrapper figcaption,
-.melonmail-wrapper figure,
-.melonmail-wrapper footer,
-.melonmail-wrapper header,
-.melonmail-wrapper menu,
-.melonmail-wrapper nav,
-.melonmail-wrapper section,
-.melonmail-wrapper summary,
-.melonmail-wrapper time,
-.melonmail-wrapper mark,
-.melonmail-wrapper audio,
-.melonmail-wrapper video {
+.pkg-test html,
+.pkg-test body,
+.pkg-test div,
+.pkg-test span,
+.pkg-test object,
+.pkg-test iframe,
+.pkg-test h1,
+.pkg-test h2,
+.pkg-test h3,
+.pkg-test h4,
+.pkg-test h5,
+.pkg-test h6,
+.pkg-test p,
+.pkg-test blockquote,
+.pkg-test pre,
+.pkg-test abbr,
+.pkg-test address,
+.pkg-test cite,
+.pkg-test code,
+.pkg-test del,
+.pkg-test dfn,
+.pkg-test em,
+.pkg-test img,
+.pkg-test ins,
+.pkg-test kbd,
+.pkg-test q,
+.pkg-test samp,
+.pkg-test small,
+.pkg-test strong,
+.pkg-test sub,
+.pkg-test sup,
+.pkg-test var,
+.pkg-test b,
+.pkg-test i,
+.pkg-test dl,
+.pkg-test dt,
+.pkg-test dd,
+.pkg-test ol,
+.pkg-test ul,
+.pkg-test li,
+.pkg-test fieldset,
+.pkg-test form,
+.pkg-test label,
+.pkg-test legend,
+.pkg-test table,
+.pkg-test caption,
+.pkg-test tbody,
+.pkg-test tfoot,
+.pkg-test thead,
+.pkg-test tr,
+.pkg-test th,
+.pkg-test td,
+.pkg-test article,
+.pkg-test aside,
+.pkg-test canvas,
+.pkg-test details,
+.pkg-test figcaption,
+.pkg-test figure,
+.pkg-test footer,
+.pkg-test header,
+.pkg-test menu,
+.pkg-test nav,
+.pkg-test section,
+.pkg-test summary,
+.pkg-test time,
+.pkg-test mark,
+.pkg-test audio,
+.pkg-test video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -98,42 +102,42 @@ Twitter: @rich_clark
   background: transparent;
 }
 
-.melonmail-wrapper body {
+.pkg-test body {
   line-height: 1;
 }
 
-.melonmail-wrapper article,
-.melonmail-wrapper aside,
-.melonmail-wrapper details,
-.melonmail-wrapper figcaption,
-.melonmail-wrapper figure,
-.melonmail-wrapper footer,
-.melonmail-wrapper header,
-.melonmail-wrapper menu,
-.melonmail-wrapper nav,
-.melonmail-wrapper section,
-.melonmail-wrapper main {
+.pkg-test article,
+.pkg-test aside,
+.pkg-test details,
+.pkg-test figcaption,
+.pkg-test figure,
+.pkg-test footer,
+.pkg-test header,
+.pkg-test menu,
+.pkg-test nav,
+.pkg-test section,
+.pkg-test main {
   display: block;
 }
 
-.melonmail-wrapper nav ul {
+.pkg-test nav ul {
   list-style: none;
 }
 
-.melonmail-wrapper blockquote,
-.melonmail-wrapper q {
+.pkg-test blockquote,
+.pkg-test q {
   quotes: none;
 }
 
-.melonmail-wrapper blockquote:before,
-.melonmail-wrapper blockquote:after,
-.melonmail-wrapper q:before,
-.melonmail-wrapper q:after {
+.pkg-test blockquote:before,
+.pkg-test blockquote:after,
+.pkg-test q:before,
+.pkg-test q:after {
   content: '';
   content: none;
 }
 
-.melonmail-wrapper a {
+.pkg-test a {
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -141,35 +145,35 @@ Twitter: @rich_clark
   background: transparent;
 }
 
-.melonmail-wrapper ins {
+.pkg-test ins {
   background-color: #ff9;
   color: #000;
   text-decoration: none;
 }
 
-.melonmail-wrapper mark {
+.pkg-test mark {
   background-color: #ff9;
   color: #000;
   font-style: italic;
   font-weight: bold;
 }
 
-.melonmail-wrapper del {
+.pkg-test del {
   text-decoration: line-through;
 }
 
-.melonmail-wrapper abbr[title],
-.melonmail-wrapper dfn[title] {
+.pkg-test abbr[title],
+.pkg-test dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
 
-.melonmail-wrapper table {
+.pkg-test table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-.melonmail-wrapper hr {
+.pkg-test hr {
   display: block;
   height: 1px;
   border: 0;
@@ -178,16 +182,16 @@ Twitter: @rich_clark
   padding: 0;
 }
 
-.melonmail-wrapper input,
-.melonmail-wrapper select {
+.pkg-test input,
+.pkg-test select {
   vertical-align: middle;
 }
 
-.melonmail-wrapper h1,
-.melonmail-wrapper h2,
-.melonmail-wrapper h3,
-.melonmail-wrapper h4,
-.melonmail-wrapper h5,
-.melonmail-wrapper h6 {
+.pkg-test h1,
+.pkg-test h2,
+.pkg-test h3,
+.pkg-test h4,
+.pkg-test h5,
+.pkg-test h6 {
   font-weight: normal;
 }
